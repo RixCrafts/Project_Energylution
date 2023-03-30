@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Recursos externos -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Public+Sans:wght@500;700&display=swap"
+        rel="stylesheet">
     <!-- ----------------- -->
 
     <!-- Recursos locales -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <!-- ---------------- -->
 
     <title>Energylution</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="header_bg_img">
             <img src="./resources/imgs/Promo Image/paneles.jpeg" alt="Imagen de paneles solares con un cielo azul de fondo">
         </div>
@@ -23,8 +27,69 @@
             <h1>Energía limpia <br /> Al alcance de todos</h1>
         </div>
     </header>
-    <nav>navbar</nav>
-    <main>main</main>
-    <footer>footer</footer>
+    <nav>
+        <ul class="navbar">
+            <li>
+                <a href="#about_us">
+                    <h2>¿Quiénes somos?</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#services">
+                    <h2>Servicios</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio">
+                    <h2>Proyectos</h2>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <h2>Contactanos</h2>
+                </a>
+            </li>
+        </ul>
+
+        <div class="mobile_navbar">
+            <span class="menu_btn_text">Menú</span>
+        </div>
+
+        <div class="menu_container">
+            <div class="menu_container--inner">
+                <button class="close_btn" type="button">X</button>
+                <div class="menu_content">
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#home">Inicio</a></li>
+                        <li class="menu_item"><a href="#about_us">¿Quiénes somos?</a></li>
+                        <li class="menu_item"><a href="#services">Servicios</a></li>
+                        <li class="menu_item"><a href="#contact">Contactanos</a></li>
+                        <li class="menu_item"><a href="#portfolio">Proyectos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <section id="about_us" class="about_us light">
+            <div class="about_us--title">
+                <img src="./resources/imgs/logo.png" alt="Logo de la empresa">
+                <h2 class="title">¿Quiénes somos?</h2>
+            </div>
+            <div class="about_us--text">
+                <p>Somos una empresa nacida con el ideal de llevar energía limpia y renovable a todos, mientras brindamos servicios de excelencia altamente personalizados y proveemos de asesoramiento continuo a nuestros clientes.</p>
+            </div>
+            <div class="about_us--image">
+                <img src="./resources/imgs/about.jpeg" alt="Fotografía de un empleado instalando una panel solar" srcset="">
+            </div>
+        </section>
+        <section id="how_we_work" class="how_we_work medium"></section>
+        <section id="services" class="services dark"></section>
+        <section id="contact" class="contact light"></section>
+        <section id="portfolio" class="portfolio medium"></section>
+        <section id="reviews" class="reviews dark"></section>
+    </main>
+    <footer class="dark">footer</footer>
 </body>
 </html>
