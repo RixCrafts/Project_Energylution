@@ -40,7 +40,9 @@ Static single-Section website with up to 10 sections
 **¿Quiénes somos?**
 > Somos una empresa nacida con el ideal de llevar energía limpia y renovable a todos, mientras brindamos servicios de excelencia altamente personalizados y proveemos de asesoramiento continuo a nuestros clientes.
 
-## Section: Como trabajamos
+
+
+## Section: ¿Como trabajamos?
 
 **Energia y entorno**
 > Integramos la energía solar al entorno sin comprometer su estética. Obtenga energía limpia y renovable con nuestros paneles solares. Disfrute de un ambiente sostenible y eficiente.
