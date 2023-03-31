@@ -1,15 +1,18 @@
-# Dev Notes -> Project: Energylution
+# README for the Energylution web project
+
+## Dev Notes -> Project: Energylution
 [Domain](www.energylution.com)
+[Dev Preview](https://rixcrafts.github.io/Project_Energylution/)
 
 Static single-Section website with up to 10 sections
 
-# HTML elements
+### HTML elements
 - Fontawesome `<script src="https://kit.fontawesome.com/6357d3066f.js" crossorigin="anonymous"></script>`
-- Icono para 'Energia y entorno' `<i class="fa-regular fa-tree-city"></i>`
+- Icono para 'Energia y entorno' `<i class="fa-solid fa-tree-city"></i>`
 - Icono para 'Profesionalidad' `<i class="fa-solid fa-people-group"></i>`
 - Icono para 'Productos y Proveedores `<i class="fa-solid fa-solar-panel"></i>`
 
-# Styles
+### Styles
 - `--clr-logo-orange: #fc832a;`
 - `--clr-log-blue: #233269;`
 - `--clr-primary: #233269;`
@@ -19,13 +22,14 @@ Static single-Section website with up to 10 sections
 - `--ff-title: Benne;`
 - `--ff-subtitle: Georgia Pro;`
 - `--ff-body: Public Sans;`
-- `--fw-regular: ???;`
-- `--fw-bold: ???;`
+- `--fw-light: 300;`
+- `--fw-regular: 500;`
+- `--fw-bold: 700;`
 - `--fs-title: ???;`
 - `--fs-subtitle: ???;`
 - `--fs-body: ???;`
 
-# Sections
+## Sections
 - Inicio                - Header
 - Quienes somos
 - Como trabajamos
@@ -35,14 +39,14 @@ Static single-Section website with up to 10 sections
 - Testimonios
 - Contacto              - Footer
 
-## Section: Quienes somos
+### Section: Quienes somos
 
 **¿Quiénes somos?**
 > Somos una empresa nacida con el ideal de llevar energía limpia y renovable a todos, mientras brindamos servicios de excelencia altamente personalizados y proveemos de asesoramiento continuo a nuestros clientes.
 
+### Section: ¿Como trabajamos?
 
-
-## Section: ¿Como trabajamos?
+Diseñamos y construimos con la sostenibilidad en mente
 
 **Energia y entorno**
 > Integramos la energía solar al entorno sin comprometer su estética. Obtenga energía limpia y renovable con nuestros paneles solares. Disfrute de un ambiente sostenible y eficiente.
@@ -53,7 +57,7 @@ Static single-Section website with up to 10 sections
 **Productos y Proveedores**
 > En nuestro compromiso por ofrecer calidad y eficiencia, trabajamos con productos y proveedores líderes en el mercado de paneles solares. Nos aseguramos de brindar precios competitivos sin comprometer la calidad y durabilidad de los equipos. De esta manera, nuestros clientes pueden disfrutar de una solución solar óptima y asequible.
 
-## Section: Nuestros servicios
+### Section: Nuestros servicios
 
 En que podemos ayudarte?
 
@@ -63,16 +67,16 @@ En que podemos ayudarte?
 4. Mantenimiento
 5. Asesoria
 
-## Section: Portfolio
+### Section: Portfolio
 
 Un carrusel con las imagenes de anteriores projectos. 
 TODO: Buscar nombre de cada proyecto y/o la direccion.
 
-## Section: Testimonios
+### Section: Testimonios
 
 TODO: Buscar testimonios
 
-## Section: Contactanos
+### Section: Contactanos
 
 email: energylutin@gmail.com <energylutin@gmail.com>;
 telf: 
